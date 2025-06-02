@@ -8,7 +8,7 @@ def test_title():
 def test_capitalize():
     assert st.capitalize("ali ahmed mahmoud") == "Ali ahmed mahmoud"
 
-@pytest.mark.skip 
+#@pytest.mark.skip 
 def test_end_with():
     assert st.end_with("ali ahmed mahmoud","test") == False
     assert st.end_with("ali ahmed mahmoud","oud") == True
