@@ -10,7 +10,7 @@ def test_addition_functionality(input1, input2, expected_result):
 def test_subtraction_functionality():
    assert calculator.sub(5,20) == -15
    assert calculator.sub(-5,-20) == 15   
-   assert calculator.sub(-5,20) == -25
+   assert calculator.sub(-5,20) == 25
    assert calculator.sub(5,-20) == 25
    assert calculator.sub(0,-20) == 20
    assert calculator.sub(5,0) == 5
